@@ -1,0 +1,28 @@
+/* @font-face{
+  font-family: 'Flow Ext';
+  src:url('../../assets/fonts/Flow_B.otf')
+} */
+
+.navbar-light .navbar-brand {
+  color:honeydew;
+  font-family: 'Flow Ext';
+  font-size: 30px;
+  font-weight: initial;
+  letter-spacing: 2px;
+}
+
+.header{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color:honeydew;
+  font-family: 'Flow Ext';
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color:honeydew;
+  font-family: 'Flow Ext';
+}
+

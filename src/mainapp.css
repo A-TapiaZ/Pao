@@ -1,0 +1,8 @@
+body{
+  background-color: lightcyan;
+}
+
+@font-face{
+  font-family: 'Flow Ext';
+  src:url('./assets/fonts/Flow_B.otf')
+}
