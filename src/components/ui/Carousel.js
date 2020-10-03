@@ -1,8 +1,4 @@
 import React from 'react'
-
-import hogao1 from '../../assets/img/hogaoPatacon.jpg';
-import tamanos from '../../assets/img/tamanospresentaciones.jpg';
-import vegetales3 from '../../assets/img/vegetales3.jpg';
 import './carousel.css';
 
 const Carousel = () => {
@@ -13,17 +9,17 @@ const Carousel = () => {
         <div className="carousel-inner">
           
           <div className="carousel-item active">
-            <img src={hogao1} className="d-block w-100" alt="..."/>
+            <img src="https://res.cloudinary.com/dt9ip7rkj/image/upload/v1601693341/Paopage/hogaoPatacon_qohgxf.jpg" className="d-block w-100" alt="..."/>
             <div class="carousel-caption">
               <h1>Productos 100% naturales</h1>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={tamanos} className="d-block w-100" alt="..."/>
+            <img src="https://res.cloudinary.com/dt9ip7rkj/image/upload/v1601693341/Paopage/tamanospresentaciones_kgevz4.jpg" className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
-            <img src={vegetales3} className="d-block w-100" alt="..."/>
+            <img src="https://res.cloudinary.com/dt9ip7rkj/image/upload/v1601693342/Paopage/vegetales3_ujg150.jpg" className="d-block w-100" alt="..."/>
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">

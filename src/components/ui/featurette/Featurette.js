@@ -1,7 +1,5 @@
 import React from 'react'
 import './featurette.css'
-import grande from '../../../assets/img/presentaciongrande.jpg'
-import pequena from '../../../assets/img/presentacionpuequena.jpg'
 import LineaSeparadora from '../hr/LineaSeparadora'
 
 
@@ -19,7 +17,7 @@ const Featurette = () => {
         <div className="col-md-5">
           <img 
             alt="Foto-tamano"
-            src={grande}
+            src="https://res.cloudinary.com/dt9ip7rkj/image/upload/v1601693341/Paopage/presentaciongrande_ywlecs.jpg"
             className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" 
             width="500" 
             height="500" 
@@ -38,7 +36,7 @@ const Featurette = () => {
         <div className="col-md-5">
           <img 
             alt="Foto-tamano"
-            src={pequena}
+            src="https://res.cloudinary.com/dt9ip7rkj/image/upload/v1601693341/Paopage/presentacionpuequena_subra1.jpg"
             className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" 
             width="500" 
             height="500" 
